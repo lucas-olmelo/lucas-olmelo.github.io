@@ -216,3 +216,77 @@ footer{
 footer p{
     margin: 0%;
 }
+
+/*pg2*/
+.titulo{
+    width: 80%;
+    text-align: center;
+    font-size: 80px;
+    margin: 2% auto 2% auto;
+}
+
+.tipos{
+    text-align: center;
+}
+
+.login{
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+    border-radius: 5%;
+    background-color: white;
+    width: 35%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #004AAD;
+}
+
+.login:hover{
+    width: 40%;
+}
+
+.login h2{
+    font-size: 80px;
+}
+
+.login img{
+    width: 80%;
+}
+
+.login p{
+    font-family: 'Antonio', sans-serif;
+    font-size: 34px;
+    width: 80%;
+    margin: 3% auto 3% auto;
+}
+
+.ap{
+    text-align: center;
+}
+.ap h1{
+    font-size: 80px;
+    width: 80%;
+    margin: 2% auto 2% auto;
+}
+.dn{
+    text-align: center;
+}
+.dn h1{
+    font-size: 80px;
+    width: 80%;
+    margin: 2% auto 2% auto;
+}
+.system{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+.system img {
+    width: 50%;
+}
+.system p{
+    font-family: 'Antonio', sans-serif;
+    font-size: 34px;
+    width: 80%;
+    margin: 3% auto 3% auto;
+}
