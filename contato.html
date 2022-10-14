@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetHorse - Corridas de cavalo e apostas</title>
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <div class="logo_caixa">
+            <a href="index.html"><img src="midia/bh_blue_rbg.png" title="BetHorse" class="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="tituloCont">
+            <h2>Deseja entrar em contato com a BetHorse?</h2>
+            <p>Preencha o formulário abaixo</p>
+        </div>
+        <form name="formContato" method="get" action="mailto:" target="_blank">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeSn" name="" class="input-padrao" placeholder="Nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@email.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" class="input-padrao" cols="70" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+                <label for="contato">Como prefere o nosso contato?
+                    <input type="radio" value="radio-mail" name="Contato">E-mail
+                    <input type="radio" value="radio-telefone" name="Contato">Telefone
+                    <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+                </label>
+                <br>
+                <label for="horario">Qual o motivo do seu contato
+                    <select>
+                        <option>Selecione</option>
+                        <option>Dúvida</option>
+                        <option>Sugestão</option>
+                        <option>Elogio</option>
+                        <option>Reclamação</option>
+                    </select>
+                </label>
+                <br>
+            </fieldset>
+            <label><input type="checkbox" class="check">Gostaria de receber novidades por e-mail?</label>
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <img src="midia/bh_blue_rbg.png" title="BetHorse">
+        <p>&copy;Copyright BetHorse 2022</p>
+    </footer>
+</body>
+</html>
