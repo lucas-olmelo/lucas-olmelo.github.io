@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: lightgrey;
+    background-color: white;
     line-height: 1.5;
 }
 
@@ -150,7 +150,7 @@ h2{
 .map{
     text-align: center;
     padding: 2%;
-    background: linear-gradient(lightgray, white);
+    background: linear-gradient(white, lightgray);
 }
 .map h2{
     padding-bottom: 2%;
@@ -201,7 +201,7 @@ h2{
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    background: linear-gradient(lightgray, rgb(74, 74, 74));
+    background: linear-gradient(white, rgb(74, 74, 74));
 }
 footer{
     background: linear-gradient(0deg, rgba(0,44,101,1) 0%, rgba(0,74,173,1) 38%, rgba(0,74,173,1) 67%, rgba(0,44,101,1) 100%);
@@ -316,19 +316,68 @@ hr{
     width: 100%;
 }
 
-/*pg 3*/
-.tituloCont{
+/*Página Contato*/
+/*Texto inicial*/
+.tituloContato{
     text-align: center;
 }
-
-.tituloCont p{
+.tituloContato p{
     font-family: 'Antonio', sans-serif;
     font-size: 32px;
     margin: 0 auto 0 auto;
 }
-
+/*Formulário*/
 form {
     width: 60%;
     font-family: 'Antonio', sans-serif;
     font-size: 24px;
+    margin: auto 20% auto 20%;
+}
+form label, form legend{
+    display: block;
+    margin: 1% 0 0;
+}
+
+fieldset{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/*Inputs*/
+.input-padrao{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;  
+}
+/*Botão*/
+.enviar{
+    width: 40%;
+    font-size: 32px;
+    font-family: 'Antonio', sans-serif;
+    background-color: #004AAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: #002c65;
+    transform: scale(1.1);
+}
+
+form div{
+    text-align: center;
+}
+form div label{
+    font-size: 20px;
+}
+
+select{
+    width: 28%;
+    font-size: 18px;
 }
