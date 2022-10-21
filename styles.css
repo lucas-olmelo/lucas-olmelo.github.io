@@ -201,7 +201,7 @@ h2{
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    background: linear-gradient(white, rgb(74, 74, 74));
+    background: linear-gradient(white, lightgray);
 }
 footer{
     background: linear-gradient(0deg, rgba(0,44,101,1) 0%, rgba(0,74,173,1) 38%, rgba(0,74,173,1) 67%, rgba(0,44,101,1) 100%);
@@ -221,7 +221,8 @@ hr{
     margin: 0%;
 }
 
-/*pg2*/
+/*Página de serviçoes*/
+/*Título da página*/
 .titulo{
     width: 80%;
     text-align: center;
@@ -231,11 +232,10 @@ hr{
     line-height: 1;
     font-style: italic;
 }
-
+/*Tipos de usuários*/
 .tipos{
     text-align: center;
 }
-
 .login{
     display: inline-block;
     text-align: center;
@@ -248,33 +248,27 @@ hr{
     border-color: #002c65;
     color: black;
 }
-
 .login:hover{
     background-color: rgb(230, 230, 230);
 }
-
 .login:hover p{
     color: #FF1616;
 }
-
 .login h2{
     font-size: 80px;
 }
-
 .login img{
     width: 60%;
 }
-
 .login p{
     font-family: 'Antonio', sans-serif;
     font-size: 34px;
     width: 90%;
     margin: 3% auto 3% auto;
 }
-
+/*Serviços para dono e apostador*/
 .ap, .dn{
     text-align: center;
-    margin-bottom: 2%;
 }
 .ap h1, .dn h1{
     font-size: 80px;
@@ -290,7 +284,7 @@ hr{
     margin: 0 auto 0 auto;
     width: 100%;
 }
-
+/*Textos e imagens dos serviços*/
 .system{
     text-align: center;
     display: inline-block;
@@ -304,14 +298,13 @@ hr{
     font-family: 'Antonio', sans-serif;
     font-size: 34px;
     width: 80%;
-    margin: 3% auto 3% auto;
+    margin: 2% auto 8% auto;
 }
-
+/*Imagem*/
 .imgap{
     text-align: center;
     background: linear-gradient(0deg, rgba(74,74,74,1) 0%, rgba(131,114,29,1) 30%, rgba(74,74,74,1) 80%);
 }
-
 .imgap img{
     width: 100%;
 }
@@ -320,6 +313,9 @@ hr{
 /*Texto inicial*/
 .tituloContato{
     text-align: center;
+}
+.tituloContato h2{
+    margin-top: 1%;
 }
 .tituloContato p{
     font-family: 'Antonio', sans-serif;
@@ -350,6 +346,11 @@ fieldset{
     padding-top: 1%;
     padding-bottom: 1%;  
 }
+/*Select*/
+select{
+    width: 28%;
+    font-size: 18px;
+}
 /*Botão*/
 .enviar{
     width: 40%;
@@ -369,15 +370,9 @@ fieldset{
     background-color: #002c65;
     transform: scale(1.1);
 }
-
 form div{
     text-align: center;
 }
 form div label{
     font-size: 20px;
-}
-
-select{
-    width: 28%;
-    font-size: 18px;
 }
