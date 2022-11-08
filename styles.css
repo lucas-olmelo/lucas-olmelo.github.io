@@ -15,8 +15,21 @@ header{
     background: rgb(74, 74, 74);
     background-color: #002c65;
     background: linear-gradient(0deg, rgba(0,44,101,1) 0%, rgba(0,74,173,1) 38%, rgba(0,74,173,1) 67%, rgba(0,44,101,1) 100%);
-    display: flex;
     position: relative;
+}
+
+.logincad {
+    width: 100%;
+    text-align: right;
+}
+
+.logincad p{
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    margin: 0%;
+    padding-right: 2%;
+    padding-top: 0.5%;
 }
 
 nav{
@@ -52,6 +65,8 @@ ul{
 
 .logo_caixa{
     margin-left: 5%;
+    width: 30%;
+    transform: translate(0, -18%);
 }
 .logo{
     padding-top: 2%;
